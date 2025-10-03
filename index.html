@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Gupta Construction</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Language Selection Modal -->
+        <div id="language-modal" class="modal">
+            <div class="modal-content">
+                <h2>Welcome to Gupta Construction</h2>
+                <p>Please select your preferred language:</p>
+                <button class="lang-btn" data-lang="en">English</button>
+                <button class="lang-btn" data-lang="hi">हिंदी</button>
+            </div>
+        </div>
+
+        <header>
+            <nav>
+                <h1>Gupta Construction</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <select id="language-select">
+                            <option value="en">English</option>
+                            <option value="hi">हिंदी</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h2 data-lang-en="Welcome to Gupta Construction" data-lang-hi="गुप्ता कंस्ट्रक्शन में आपका स्वागत है">Welcome to Gupta Construction</h2>
+                    <p data-lang-en="Building Your Dreams One Project at a Time" data-lang-hi="आपके सपनों को एक प्रोजेक्ट के रूप में बनाना">Building Your Dreams One Project at a Time</p>
+                    <button class="explore-btn" data-lang-en="Learn More" data-lang-hi="और जानें">Learn More</button>
+                </div>
+            </section>
+            <section id="about" class="about-section">
+                <h2 data-lang-en="About Me" data-lang-hi="मेरे बारे में">About Me</h2>
+                <p data-lang-en="Hi, I'm Shailesh Gupta. Our construction work is renowned and trusted by many people, having sold an estimated 50 houses or more. This construction business was founded by my father, Virendra Kumar Gupta, and I'm proud to carry forward his legacy. We focus on delivering high-quality projects and ensure that everything we build is fashionable and never outdated." data-lang-hi="नमस्ते, मैं शैलेश गुप्ता हूं। हमारे निर्माण कार्य को बहुत से लोगों द्वारा जाना और भरोसा किया जाता है, हमने अनुमानित 50 या उससे अधिक घर बेचे हैं। इस निर्माण व्यवसाय की स्थापना मेरे पिता, वीरेंद्र कुमार गुप्ता ने की थी और मैं उनके विरासत को आगे बढ़ाने के लिए गर्वित हूं। हम उच्च गुणवत्ता वाले प्रोजेक्ट्स को सुनिश्चित करते हैं और यह सुनिश्चित करते हैं कि हम जो कुछ भी बनाते हैं वह फैशनेबल और कभी भी पुराना न हो।">Hi, I'm Shailesh Gupta. Our construction work is renowned and trusted by many people, having sold an estimated 50 houses or more. This construction business was founded by my father, Virendra Kumar Gupta, and I'm proud to carry forward his legacy. We focus on delivering high-quality projects and ensure that everything we build is fashionable and never outdated.</p>
+            </section>
+            <section id="projects" class="projects-section">
+                <h2 data-lang-en="Our Projects" data-lang-hi="हमारे प्रोजेक्ट्स">Our Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <img src="project1.jpg" alt="Duplex 1">
+                        <h3 data-lang-en="Duplex 1" data-lang-hi="डुप्लेक्स 1">Duplex 1</h3>
+                        <p data-lang-en="Duplex 1 is a contemporary residential building featuring modern amenities, spacious interiors, and sustainable design. It is designed to offer comfort and luxury to its residents." data-lang-hi="डुप्लेक्स 1 एक समकालीन आवासीय भवन है जिसमें आधुनिक सुविधाएं, विशाल आंतरिक सज्जा और स्थायी डिजाइन शामिल हैं। इसे निवासियों को आराम और विलासिता प्रदान करने के लिए डिज़ाइन किया गया है।">Duplex 1 is a contemporary residential building featuring modern amenities, spacious interiors, and sustainable design. It is designed to offer comfort and luxury to its residents.</p>
+                    </div>
+                    <div class="project-card">
+                        <img src="project2.jpg" alt="Duplex 2">
+                        <h3 data-lang-en="Duplex 2" data-lang-hi="डुप्लेक्स 2">Duplex 2</h3>
+                        <p data-lang-en="Duplex 2 is a beautifully crafted structure that combines elegance with functionality. This project emphasizes smart living solutions and aesthetic appeal, making it a perfect choice for modern families." data-lang-hi="डुप्लेक्स 2 एक सुंदर ढंग से निर्मित संरचना है जो कार्यात्मकता के साथ सुंदरता को जोड़ती है। यह प्रोजेक्ट स्मार्ट जीवन समाधानों और सौंदर्य अपील पर जोर देता है, जो इसे आधुनिक परिवारों के लिए एक आदर्श विकल्प बनाता है।">Duplex 2 is a beautifully crafted structure that combines elegance with functionality. This project emphasizes smart living solutions and aesthetic appeal, making it a perfect choice for modern families.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="contact-section">
+                <h2 data-lang-en="Contact Me" data-lang-hi="मुझसे संपर्क करें">Contact Me</h2>
+                <div class="contact-details">
+                    <p data-lang-en="Contact me using my mobile number or via email:" data-lang-hi="मुझसे मोबाइल नंबर या ईमेल के माध्यम से संपर्क करें:">Contact me using my mobile number or via email:</p>
+                    <p data-lang-en="Mobile: <a href='tel:+919425300402'>9425300402</a>" data-lang-hi="मोबाइल: <a href='tel:+919425300402'>9425300402</a>">Mobile: <a href="tel:+919425300402">9425300402</a></p>
+                    <p data-lang-en="Email: <a href='mailto:shaileshgupta626@gmail.com'>shaileshgupta626@gmail.com</a>" data-lang-hi="ईमेल: <a href='mailto:shaileshgupta626@gmail.com'>shaileshgupta626@gmail.com</a>">Email: <a href="mailto:shaileshgupta626@gmail.com">shaileshgupta626@gmail.com</a></p>
+                    <p data-lang-en="or" data-lang-hi="या">or</p>
+                    <p data-lang-en="Email: <a href='mailto:gupta.shailesh78@yahoo.com'>gupta.shailesh78@yahoo.com</a>" data-lang-hi="ईमेल: <a href='mailto:gupta.shailेश78@yahoo.com'>gupta.shailesh78@yahoo.com</a>">Email: <a href="mailto:gupta.shailesh78@yahoo.com">gupta.shailesh78@yahoo.com</a></p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p data-lang-en="&copy; 2024 Gupta Construction. All rights reserved." data-lang-hi="&copy; 2024 गुप्ता कंस्ट्रक्शन। सर्वाधिकार सुरक्षित।">&copy; 2024 Gupta Construction. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
