@@ -196,3 +196,82 @@ footer {
     background: #4db6ac;
     color: #fff;
 }
+
+/* Mobile-specific styles */
+@media screen and (max-width: 768px) {
+    header {
+        position: relative;
+        padding: 20px 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    nav h1 {
+        font-size: 2.5rem;
+        color: #ffc107;
+        margin: 25px 0;
+        text-align: center;
+        order: 2;
+    }
+
+    nav ul {
+        order: 3;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    nav ul li a {
+        font-size: 1.4rem;
+        padding: 5px 10px;
+    }
+
+    nav ul li select {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        font-size: 1.3rem;
+        padding: 8px 12px;
+        background: #ffc107;
+        color: #002f6c;
+        border-radius: 5px;
+        order: 1;
+    }
+
+    .hero {
+        height: 60vh; /* Reduced height for mobile */
+        min-height: 400px; /* Minimum height to prevent content clipping */
+        display: flex;
+        align-items: center; /* Maintain vertical centering */
+        justify-content: center; /* Maintain horizontal centering */
+        padding: 20px; /* Padding to prevent edge touching */
+        box-sizing: border-box; /* Include padding in height */
+    }
+
+    .hero-content {
+        max-width: 100%; /* Full width for mobile */
+        padding: 15px; /* Adjusted padding */
+    }
+
+    .hero h2 {
+        font-size: 1.8rem; /* Slightly smaller for proportionality */
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 1.1rem; /* Adjusted for mobile readability */
+        margin-bottom: 15px;
+    }
+
+    .explore-btn {
+        font-size: 1.1rem; /* Slightly larger button text */
+        padding: 10px 20px; /* Adjusted for touch targets */
+    }
+}
